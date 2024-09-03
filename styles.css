@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+input[type="text"] {
+    width: calc(100% - 130px);
+    padding: 10px;
+    border: 1px solid #b2dfdb; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #0097a7; 
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #00796b; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #b2dfdb; 
+    margin-bottom: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #80deea; 
+}
+
+li button {
+    background-color: #004d40; 
+    margin-left: auto;
+}
+
+li button:hover {
+    background-color: #00251a; 
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
